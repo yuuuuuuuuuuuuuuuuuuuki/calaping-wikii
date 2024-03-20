@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calabiyau Wiki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(img\ de\ fond.jpg);
+             background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #292929;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0)), url(img\ de\ fond.jpg) no-repeat fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            color: #fff;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .social-links img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+     
+        .image-container {
+        margin-top: 100px; 
+    }
+    .image-container p {
+
+        margin-left: 50px; 
+    }
+    .content {
+        background-color: white;
+        margin: 0 auto;
+        width: 80%; 
+        height: 100%;
+        overflow: auto;
+        padding: 10px;
+            text-align: center;
+    }
+    p {
+        color: black; 
+        padding: 10px;
+            text-align: center;
+    }
+    h3{ color: black;
+        padding: 10px;
+            text-align: center;}
+    h2{ color: black ;
+        padding: 10px;
+            text-align: center;}
+    h4{ color: black ;
+        padding: 10px;
+            text-align: center;}
+    
+
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Calabiyau Wiki Fr</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="page test1.html">Aperçu</a></li>
+            <li><a href="news PAGE .html">News</li>
+            <li><a href="page de persos .html">Personnages</a></li>
+            <li><a href="gameplay page .html">Jouabilité</a></li>
+            <li><a href="lore page .html">Lore</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+    <h2>Patch notes 03/21</h2>
+        <p>Heure de maintenance : 2024/03/21 06h00-10h00 GMT+8
+            Compensation d'entretien : 100 crédits, 100 orbes violets </p>
+            <h3>Nouveau personnage : Aika </h3>
+                <p> Appartenant à la faction Scissors, une lycéenne pleine d'entrain et énergique. Munie de son masque, elle protège les habitants avec ses flammes.</p>
+                <p>Arme principale : Firesong (c'est le AA-12, un fusil de chasse entièrement automatique avec une base de 15 cartouches)</p>
+                <p>Passif : Lorsqu'Aika inflige des dégâts aux ennemis, elle accumule une petite quantité de chaleur pour sa jauge de chaleur, jusqu'à un maximum de 100. 
+                    À chaleur maximale, Aika inflige des dégâts supplémentaires aux ennemis en mode papier et renforce ses capacités.</p>
+<p>Compétence active : Crée une cage devant Aika qui brûle les ennemis qui franchissent ses limites ;
+     la cage se dissipe prématurément une fois qu'il n'y a plus d'ennemis à l'intérieur. Lorsqu'Aika entre dans la cage,
+      les coups d'arme principale contre les ennemis à l'intérieur infligeront des dégâts de brûlure supplémentaires.
+       Lancer la compétence avec 100 de chaleur la renforce, conférant à la cage encore plus de dégâts lorsque les ennemis traversent ses murs.</p>
+       <p>Ultime : lance jusqu'à 3 boules de feu qui explosent chacune en une tempête de feu, soulevant
+         (comme un effet de bombe éolienne) et entraînant les ennemis, leur infligeant des dégâts de feu. 
+         Lancer la compétence avec 100 de chaleur la renforce, lui accordant une taille et des dégâts accrus,
+          ainsi que mettant en évidence tous les ennemis pris à l'intérieur.</p>
+<h3>Upgrades</h3>
+<img src="aika amélioration.png" alt="Description de l'image" width="700">
+<h3>Changements d'équilibre</h3>
+<h4>Michelle</h4>
+<p>Les dégâts des compétences actives ont été réduits de 3 à 2 dégâts par tick.</p>
+    <h4>Madeleine</h4>
+    <p>Dégâts ajustés</p>
+    <img src="dgt change madelena .png" alt="Description de l'image">
+<p>La durée de la compétence active principale a été augmentée de 12 à 15 secondes. (ce changement ne s'applique pas à la charge utile)</p>
+    <h4>Fuchsia</h4>
+    <p>Le modèle de recul de l'arme principale a été ajusté. (après patch dans l'image de droite)</p>
+    <img src="recul feisha.png" alt="Description de l'image">
+<p>La durée de l'analyse des capacités actives sur les ennemis à 100 HP est passée de 1 s à 2 s.<br>
+    Le réseau de mise à niveau a été ajusté, remplaçant [Augmentation de la vitesse ADS] par [Amélioration du recul]</p>
+<h3>Map adjustments</h3>
+<p>Les barrières d'apparition des blocs Picton ont été ajustées pour être davantage favorisées par les attaquants.</p>
+    <img src="map changements .png" alt="Description de l'image"width="400">
+<h3>Mise à jour du dortoir</h3>
+<p>Ajout d'une fonction anniversaire au dortoir.<br>
+    Ajout d'une interaction spéciale pour l'anniversaire de Michelle ; Les navigateurs peuvent déclencher cette interaction en visitant son dortoir.</p>
+<h3>Mises à jour et optimisations supplémentaires</h3>
+<p>Ajustement de l'état debout d'Yvette dans le dortoir pour que le mouvement de la poitrine soit synchronisé avec la respiration.<br>
+    Ajout d'une nouvelle chaîne de discussion mondiale "La salle de guitare d'Aika".</p>
+<h3>Corrections de bugs</h3>
+<p>- Suppression du bug qui, dans certaines conditions, infliger des dégâts à Flavia entraînerait l'attribution d'un montant anormal de dégâts à l'attaquant. En raison de ce bug, de nombreux navigateurs ont des lignes de statistiques anormales et leurs statistiques seront bientôt corrigées.<br>
+    - Correction d'un problème avec le skin de niveau mythique de Lawine où les effets visuels de la capacité ne reflétaient pas avec précision la zone d'effet réelle de la capacité.<br>
+    - Correction d'un problème avec le skin de niveau légendaire de Ming du patch le plus récent où la capacité perdait son indicateur d'avertissement.<br>
+    - Correction d'un problème avec les objets jetables où la trajectoire serait affectée si l'animation était interrompue par le lancement d'une compétence.<br>
+    - Correction d'un problème lors de l'ouverture de la carte à mi-tour, il est possible que vous ne puissiez pas la fermer correctement.<br>
+    - Correction d'un emplacement involontaire près de la tour du côté attaquant en A où vous pouviez vous tenir sur le rebord en dehors de la zone de jeu prévue.<br>
+    - Correction d'un problème lors de la modification de la bannière de votre personnage et de sa correspondance réussie avec un jeu, l'affichage de l'interface utilisateur était anormal.<br>
+    - Correction d'un problème dans la page [Profil - Classé] où les points de protection des orbes accumulés étaient affichés sans classement.</p>
+
+    <p>LIEN DU PATCH NOTE OFFICIEL : https://www.bilibili.com/read/cv33306482/?spm_id_from=333.999.0.0 </p>
+</div>
+
+
+</p>
+    <footer>
+        <p>© 2023 Calabiyau Wiki. Tous droits réservés.</p>
+    </footer>
+    
+    <div class="social-links">
+        <a href="#">
+            <img src="youtube.png" alt="YouTube">
+            YouTube
+        </a>
+        <a href="#">
+            <img src="twitter.png" alt="Twitter">
+            Twitter
+        </a>
+        <a href="#">
+            <img src="tiktok.png" alt="TikTok">
+            TikTok
+        </a>
+        <a href="#">
+            <img src="discord.png" alt="Discord">
+            Discord
+        </a>
+    </div>
+
+    </div>
+</body>
+</html>
